@@ -5,7 +5,7 @@ import styles from './Cards.module.css';
 const Cards = (props) => {
   return (
     <div className={styles.Cards}>
-    <img src={props.imgSrc}/>
+    <img src={props.imgSrc} alt="Avater"/>
     <div className={styles.CenteredText}>{props.name}</div>
     </div>
   )

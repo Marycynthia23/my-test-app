@@ -2,7 +2,7 @@ import styles from "./Movie.module.css";
 import { useEffect, useState } from "react";
 import Cards from "../Cards/Cards";
 
-const API_BASE_URL = "http://www.omdbapi.com";
+const API_BASE_URL = "https://www.omdbapi.com";
 const API_KEY = "12423aa9";
 
 

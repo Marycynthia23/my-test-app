@@ -8,7 +8,7 @@ const [search, setSearch] = useState("")
 
 const movieText = "Harry";
 
-const API_BASE_URL = "http://www.omdbapi.com";
+const API_BASE_URL = "https://www.omdbapi.com";
 const API_KEY = "12423aa9";
 console.log(API_KEY)
 

@@ -1,0 +1,40 @@
+.Cards{
+    flex: 0 0 auto;
+    margin: 0px 13px;
+    padding-top: 50px;
+}
+.Cards img{
+    border-radius: 6px;
+    width: 250px;
+    height: 251px;
+    background-position: center center;
+    background-size: cover;
+    
+} 
+.Cards img:hover{
+    opacity: 0.1;
+    
+} 
+.CenteredText{
+    display: none;
+}
+
+.CenteredText:hover{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color:#fff;
+    } 
+
+    @media screen and (max-width: 800px){
+        .Cards img{
+            border-radius: 8px;
+            width: 300px;
+            height: 301px;
+            background-position: center center;
+            background-size: cover;
+            
+        } 
+    }
